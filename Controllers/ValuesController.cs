@@ -9,7 +9,7 @@ namespace WebApplicationSample.Controllers
     {
         [HttpGet]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
-        public IActionResult Greeting()
+        public IActionResult Get()
         {
             string message = "Hi world";
             return Ok(message);
